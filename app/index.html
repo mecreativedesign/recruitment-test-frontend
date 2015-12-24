@@ -48,6 +48,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
   <!-- build:js bower_components/webcomponentsjs/webcomponents-lite.min.js -->
   <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link href="bower_components/paper-elements/paper-elements.html" rel="import">
+    <link href="bower_components/paper-menu/paper-submenu.html" rel="import">
+    <link href="bower_components/paper-menu/paper-menu.html" rel="import">
   <!-- endbuild -->
 
   <!-- Because this project uses vulcanize this should be your only html import
@@ -79,10 +82,25 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <span>Home</span>
           </a>
 
-          <a data-route="users" href="{{baseUrl}}users">
-            <iron-icon icon="info"></iron-icon>
-            <span>Users</span>
-          </a>
+
+
+            <paper-submenu>
+                <paper-item class="menu-trigger"><iron-icon icon="info"></iron-icon>
+                <span>Users</span></paper-item>
+                <paper-menu multi class="menu-content">
+                    <paper-item>Zorita Beach</paper-item>
+                    <paper-item>Austin Peterson</paper-item>
+                    <paper-item>Jermaine Cobb</paper-item>
+                    <paper-item>Emerald Mendez</paper-item>
+                    <paper-item>Phillip Stokes</paper-item>
+                    <paper-item>Rhea Oneill</paper-item>
+                </paper-menu>
+            </paper-submenu>
+
+
+
+
+
 
           <a data-route="contact" href="{{baseUrl}}contact">
             <iron-icon icon="mail"></iron-icon>
@@ -95,6 +113,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             </a>
 
         </paper-menu>
+
+
+
       </paper-scroll-header-panel>
 
       <!-- Main Area -->
