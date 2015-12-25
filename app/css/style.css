@@ -42,6 +42,9 @@ body {
 .topspace {
   margin-top: 20px;
 }
+paper-toolbar.paper-toolbar-0 {
+  background: #f3013e !important;
+}
 .button {
   background: #000;
   border: none;
