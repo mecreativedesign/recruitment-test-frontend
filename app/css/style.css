@@ -22,6 +22,9 @@ header h2 {
   float: left;
   color: #fff;
 }
+body {
+  background: #f6f1f2;
+}
 .container {
   width: 920px;
   height: 609px;
