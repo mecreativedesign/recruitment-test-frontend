@@ -52,3 +52,10 @@ body {
 .gold-email-input {
   color: #fff !important;
 }
+.gold-password-input {
+  color: #fff !important;
+}
+.vertical-section:not([style-scope]):not(.style-scope) {
+  margin: 0 2px 24px !important;
+  padding: 0px !important;
+}
