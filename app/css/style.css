@@ -42,9 +42,6 @@ body {
 .topspace {
   margin-top: 20px;
 }
-paper-toolbar.paper-toolbar-0 {
-  background: #f3013e !important;
-}
 .button {
   background: #000;
   border: none;
@@ -86,4 +83,15 @@ paper-toolbar.paper-toolbar-0 {
 .vertical-section:not([style-scope]):not(.style-scope) {
   margin: 0 2px 24px !important;
   padding: 0px !important;
+}
+paper-toolbar.paper-toolbar-0 {
+  background: #f3013e !important;
+}
+paper-toolbar.paper-toolbar-0.tall {
+  height: calc(64px * 1);
+}
+paper-drawer-panel {
+  margin: 0 auto;
+  width: 960px !important;
+  position: relative !important;
 }
