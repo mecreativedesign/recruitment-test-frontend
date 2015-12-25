@@ -40,10 +40,16 @@ body {
   float: left;
 }
 .vertical-section {
-  background: none;
-  box-shadow: none;
+  background: none !important;
+  box-shadow: none !important;
 }
 .gold-email-input {
-  color: #000;
-  font: 13px Arial;
+  color: #000 !important;
+  font: 13px Arial !important;
+}
+.paper-input-container-0 .unfocused-line.paper-input-container {
+  background: #fff !important;
+}
+.paper-input-container-0 .focused-line.paper-input-container {
+  background: #000 !important;
 }
