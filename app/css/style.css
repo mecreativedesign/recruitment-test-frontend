@@ -39,6 +39,16 @@ body {
   margin-top: 9%;
   float: left;
 }
+.button {
+  background: #000;
+  border: none;
+  color: #fff;
+  padding: 7px;
+  font: bold 14px Arial;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+}
 .vertical-section {
   background: none !important;
   box-shadow: none !important;
