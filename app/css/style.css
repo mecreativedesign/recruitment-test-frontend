@@ -43,13 +43,12 @@ body {
   background: none !important;
   box-shadow: none !important;
 }
-.gold-email-input {
-  color: #000 !important;
-  font: 13px Arial !important;
-}
 .paper-input-container-0 .unfocused-line.paper-input-container {
   background: #fff !important;
 }
 .paper-input-container-0 .focused-line.paper-input-container {
   background: #000 !important;
+}
+.gold-email-input {
+  color: #fff !important;
 }
