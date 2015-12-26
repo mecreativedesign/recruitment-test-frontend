@@ -51,8 +51,9 @@ body {
   margin-top: 5px;
 }
 .profile-name {
-  line-height: 18px;
+  line-height: 21px;
 }
+margin-top: -4px,
 .chatwindow {
   width: 100%;
   background: #fff;
@@ -115,17 +116,15 @@ paper-menu {
   background: #f3013e !important;
 }
 paper-menu a {
-  background: #ff3769 !important;
-  -webkit-border-radius: 9px;
-  -moz-border-radius: 9px;
-  border-radius: 9px;
-  margin: 6px 9px 1px;
+  border-bottom: 1px solid #484848 !important;
+  color: #fff !important;
+  background: #3a3a3a !important;
 }
 paper-menu a:focus {
-  background: #fff !important;
+  background: #222 !important;
 }
 paper-menu a:hover {
-  background: #fff !important;
+  background: #222 !important;
 }
 paper-scroll-header-panel {
   background: #f6f6f6;
@@ -148,4 +147,7 @@ paper-scroll-header-panel {
   line-height: 11px;
   margin: 0px;
   padding: 0px;
+}
+#drawer.paper-drawer-panel > [drawer]:not([style-scope]):not(.style-scope) {
+  border-right: 0px !important;
 }

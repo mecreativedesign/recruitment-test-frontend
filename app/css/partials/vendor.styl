@@ -33,15 +33,16 @@ paper-menu
 	background	pink-color !important
 	
 	& a
-		background pink-light-color !important
-		border-radius(9px)		
-		margin 6px 9px 1px
+		border-bottom 1px solid #484848 !important
+		color white-color !important
 		
+		background grey-diff-color !important
+	    
 	& a:focus
-		background white-color !important	
+		background grey-whl-color !important	
 	
 	& a:hover
-		background white-color !important		
+		background grey-whl-color !important		
 
 paper-scroll-header-panel 
 	background #f6f6f6
@@ -64,3 +65,6 @@ paper-scroll-header-panel
 	line-height 11px
 	margin 0px
 	padding 0px	
+	
+#drawer.paper-drawer-panel > [drawer]:not([style-scope]):not(.style-scope)
+	border-right 0px !important		
