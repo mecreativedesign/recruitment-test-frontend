@@ -66,7 +66,7 @@ margin-top -4px,
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 14px;
   padding: 5px;
 }
 .chat-time {
@@ -82,6 +82,15 @@ margin-top -4px,
 .colorblack {
   background: #000 !important;
   margin-left: 36px;
+}
+.logout {
+  background: #000;
+  height: 81px;
+}
+.pro-name {
+  float: left;
+  line-height: 62px !important;
+  line-height: 18px;
 }
 .button {
   background: #000;
@@ -104,6 +113,10 @@ margin-top -4px,
 }
 .text-link a:hover {
   color: #000;
+}
+textarea {
+  padding-left: 10px;
+  padding-top: 7px;
 }
 .vertical-section {
   background: none !important;
@@ -137,7 +150,7 @@ paper-drawer-panel {
   position: relative !important;
 }
 paper-menu {
-  background: #f3013e !important;
+  background: #3a3a3a !important;
 }
 paper-menu a {
   border-bottom: 1px solid #484848 !important;
@@ -155,7 +168,7 @@ paper-scroll-header-panel {
   border: 10px solid #4d4d4d;
 }
 #main.paper-drawer-panel > [main] {
-  height: 630px;
+  height: 628px;
 }
 .my-greeting {
   height: 133px;
@@ -165,7 +178,7 @@ paper-scroll-header-panel {
   width: 679px;
 }
 #drawer.paper-drawer-panel > [drawer] {
-  height: 630px;
+  height: 628px;
 }
 .selectable-content.style-scope.paper-menu p {
   line-height: 11px;
@@ -177,4 +190,10 @@ paper-scroll-header-panel {
 }
 .layout.horizontal {
   display: block !important;
+}
+#mainToolbar .bottom:not([style-scope]):not(.style-scope) {
+  margin-left: 0px !important;
+}
+.paper-font-subhead {
+  float: left;
 }
