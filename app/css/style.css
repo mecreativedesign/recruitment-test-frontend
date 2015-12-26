@@ -53,11 +53,35 @@ body {
 .profile-name {
   line-height: 21px;
 }
-margin-top: -4px,
+margin-top -4px,
 .chatwindow {
   width: 100%;
   background: #fff;
   height: 500px;
+}
+.chat-text {
+  width: 285px;
+  float: left;
+  background: #f3013e;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 5px;
+}
+.chat-time {
+  float: right;
+  font-size: 13px;
+  color: #858585;
+  margin-top: 21px;
+}
+.question-chat {
+  width: 580px;
+  clear: both;
+}
+.colorblack {
+  background: #000 !important;
+  margin-left: 36px;
 }
 .button {
   background: #000;
@@ -150,4 +174,7 @@ paper-scroll-header-panel {
 }
 #drawer.paper-drawer-panel > [drawer]:not([style-scope]):not(.style-scope) {
   border-right: 0px !important;
+}
+.layout.horizontal {
+  display: block !important;
 }
