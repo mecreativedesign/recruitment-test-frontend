@@ -49,6 +49,11 @@ body {
   -moz-border-radius: 30px;
   border-radius: 30px;
 }
+.chatwindow {
+  width: 100%;
+  background: #fff;
+  height: 500px;
+}
 .button {
   background: #000;
   border: none;
@@ -114,4 +119,11 @@ paper-menu a {
 }
 paper-menu a:focus {
   background: #fff !important;
+}
+paper-scroll-header-panel {
+  background: #f6f6f6;
+  border: 10px solid #4d4d4d;
+}
+#main.paper-drawer-panel > [main] {
+  height: 630px;
 }
