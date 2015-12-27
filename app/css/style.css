@@ -92,6 +92,12 @@ margin-top -4px,
   line-height: 62px !important;
   line-height: 18px;
 }
+.imgstyle img {
+  padding: 65px 0 0 77px;
+}
+.setmargin {
+  margin-left: 15px;
+}
 .button {
   background: #000;
   border: none;
@@ -139,9 +145,10 @@ textarea {
   margin: 0;
 }
 .details404 {
-  font: 20px fontstyle-details;
+  font: 28px fontstyle-details;
   float: left;
   padding-left: 16px;
+  color: #fff;
 }
 .vertical-section {
   background: none !important;
