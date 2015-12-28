@@ -19,7 +19,7 @@
 <link rel="import" href="bower_components/paper-styles/demo-pages.html">
 
 
- <script type="text/javascript" src="scripts/coffee/script.js"></script> 
+<script type="text/javascript" src="scripts/coffee/script.js"></script>
 </head>
 
 <body>
@@ -39,12 +39,22 @@
                         <p>
                         	<div class="vertical-section-container centered">
     							<div class="vertical-section">
-      								<form>
+      								
+                                      <form name="loginform">
+                                     <gold-email-input id="username" name="email"></gold-email-input>
+          <gold-password-input name="password"></gold-password-input>
+          <button type="button" class="button topspace" onClick="goin();">Login Now</button> 
+                                        <span class="text-link"><a href="">Need Help, Forgot Your Password ?</a></span>
+                                    </form>
+                                    
+                                    
+                                    
+                                    <!--<form>
                                     	<gold-email-input id="username"></gold-email-input>
 										<gold-password-input></gold-password-input>
 										<button type="button" class="button topspace" onClick="goin();">Login Now</button> 
                                         <span class="text-link"><a href="">Need Help, Forgot Your Password ?</a></span>
-                                    </form>								
+                                    </form>		-->						
         
     							</div>
 						  	</div>                        

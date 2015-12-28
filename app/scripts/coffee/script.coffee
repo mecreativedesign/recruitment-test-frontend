@@ -1,9 +1,20 @@
-@goin = () ->
 
-	curruser = "robin"
-	
-	usernow = document.getElementsByClassName("gold-email-input").item(0)
 
-	usernow.value.color ="#ccc !important"
-   
+(->
+
+  @goin = ->
+    curruser = 'robin'
+    currpass = '123'
+    email = undefined
+    password = undefined
+    email = document.loginform.elements['email'].value
+    password = document.loginform.elements['password'].value
+    if email == curruser and password == currpass
+      alert 'successful'
+    else
+      alert 'fail'
+    return
+
+  return
+).call this
 
