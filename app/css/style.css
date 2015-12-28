@@ -148,6 +148,18 @@ margin-top -4px,
 #registration-block p {
   font: 17px Arial;
 }
+.profile-image img {
+  float: left;
+  -webkit-border-radius: 140px;
+  -moz-border-radius: 140px;
+  border-radius: 140px;
+  margin-left: 140px;
+  margin-top: 140px;
+  border: 10px solid #ff3165;
+}
+.setmargin-long button {
+  margin-left: 195px;
+}
 .button {
   background: #000;
   border: none;
