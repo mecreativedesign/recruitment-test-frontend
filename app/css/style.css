@@ -160,6 +160,11 @@ margin-top -4px,
 .setmargin-long button {
   margin-left: 195px;
 }
+.registration-section {
+  float: left;
+  margin-top: 130px;
+  margin-left: 129px;
+}
 .button {
   background: #000;
   border: none;
